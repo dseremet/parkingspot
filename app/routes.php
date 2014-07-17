@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+
+Route::get('/', array('uses' => 'HomeController@showIndex'));
+Route::get('/admin', array('uses' => 'HomeController@showAdmin'));
+Route::post('/admin', array('uses' => 'HomeController@changeSlot'));

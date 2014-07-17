@@ -14,7 +14,7 @@
         <?php for ($row = 1; $row <= $numberOfRows; $row++): ?>
             <tr>
                 <?php for ($column = 1; $column <= $numberOfColumns; $column++): ?>
-                    <td class="<?= $parkingSpots[$count]['free'] ? "free" : "taken" ?>"><?= $column ?></td>
+                    <td slot-id="<?= $parkingSpots[$count]['id'] ?>" class="parking-slot <?= $parkingSpots[$count]['free'] ? "free" : "taken" ?>"><?= $column ?></td>
                     <?php $count++; ?>
                 <?php endfor; ?>
             </tr>

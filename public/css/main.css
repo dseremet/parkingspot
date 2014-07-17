@@ -1,0 +1,28 @@
+@import url(//fonts.googleapis.com/css?family=Lato:700);
+
+body {
+    margin:0;
+    font-family:'Lato', sans-serif;
+    text-align:center;
+    color: #999;
+}
+.parkingSpots
+{
+
+}
+.parkingSpots td
+{
+    height: 40px;
+    width: 30px;
+    border: 1px solid #999;
+}
+.parkingSpots td.taken
+{
+    background: #ff425d;
+    color: #000000;
+}
+.parkingSpots td.parking-slot:hover
+{
+    cursor: pointer;
+    opacity: 0.5;
+}
