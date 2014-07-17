@@ -28,7 +28,10 @@
 
     </table>
 </div>
+<script type="text/javascript" src="/js/handlebars-1.1.2.js"></script>
 <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/js/ember-1.6.1.js"></script>
+<script type="text/javascript" src="/js/ember-data.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 </body>
 </html>
