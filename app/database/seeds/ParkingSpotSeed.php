@@ -8,21 +8,21 @@
 
 class ParkingSpotSeed extends Seeder{
 
-    private $numberOfColumns = 6;
-    private $numberOfRows = 6;
+    private $numberOfColumns = 9;
+    private $numberOfRows = 7;
 
     public function run()
     {
         $data = [];
-        for($i=1; $i<=$this->numberOfColumns; $i++)
+        for($i=1; $i<=$this->numberOfRows; $i++)
         {
-            for($j=1; $j<=$this->numberOfRows; $j++ )
+            for($j=1; $j<=$this->numberOfColumns; $j++ )
             {
                 $data[] = ['position_x'=>$j, 'position_y'=>$i, 'free'=>true];
             }
         }
 
-
+        DB::table('parking_spots')->truncate();
         DB::table('parking_spots')->insert($data);
     }
 

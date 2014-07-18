@@ -21,7 +21,7 @@
             <?php if ($row % 2 == 1): ?>
 
                 <tr>
-                    <td colspan="6" class="emptyRow"></td>
+                    <td colspan="<?= $numberOfColumns ?>" class="emptyRow"></td>
                 </tr>
             <?php endif; ?>
         <?php endfor; ?>
