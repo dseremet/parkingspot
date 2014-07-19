@@ -30,5 +30,7 @@
 </div>
 <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="js/brain-socket.min.js"></script>
+
 </body>
 </html>

@@ -8,8 +8,8 @@
 
 class ParkingSpotSeed extends Seeder{
 
-    private $numberOfColumns = 9;
-    private $numberOfRows = 7;
+    private $numberOfColumns = 20;
+    private $numberOfRows = 12;
 
     public function run()
     {
