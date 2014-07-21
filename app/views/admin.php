@@ -5,6 +5,7 @@
     <title>Free Parking Slot - Admin</title>
 
     <link href="/css/main.css" type="text/css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 <body>
 <div>
